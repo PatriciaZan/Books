@@ -1,0 +1,33 @@
+<!-- c) Um supermercado está com uma promoção – Para aumentar
+suas vendas no setor de higiene, cada etiqueta de produto deve exibir
+uma mensagem anunciando 50% de desconto (para um item) na compra
+de três unidades do produto. Elaborar um programa que leia descrição e
+preço de um produto. Após, apresente as mensagens indicando a
+promoção -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado</title>
+    <script defer src="./scriptSupermercado.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Supermercado JS</h1>
+
+        <label for="">Produto</label>
+        <input type="text" id="produto"><br>
+
+        <label for="">Preço R$</label>
+        <input type="number" id="preco">
+
+        <button id="btn">Ver Promoções</button>
+
+        <p><span id="span-produto"></span> - Promoção: Leve 3 por R$<span id="span-valorTotal"></span> </p>
+        <p>O 3º produto custa aenas R$: <span id="terceiroProduto"></span></p>
+
+    </main>
+</body>
+</html>

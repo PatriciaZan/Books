@@ -1,0 +1,32 @@
+<!-- b) Elaborar um programa para uma lan house de um aeroporto
+– O programa deve ler o valor de cada 15 minutos de uso de um
+computador e o tempo de uso por um cliente em minutos. Informe o
+valor a ser pago pelo cliente, sabendo que as frações extras de 15
+minutos devem ser cobradas de forma integral. A Figura 2.10 exibe um
+exemplo com dados do programa. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LanHouse</title>
+    <script defer src="./scriptLanHOuse.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Lan House JS</h1>
+
+        <label for="">Valor por 15min de Uso R$:</label>
+        <input type="number" id="quinzeUso"><br>
+
+        <label for="">Tempo de Uso do Cliente</label>
+        <input type="number" id="tempoUso"><br>
+
+        <button id="btn">Calcular valor a pagar</button>
+
+
+        <h3>Valor a Pagar R$: <span id="result"></span></h3>
+    </main>
+</body>
+</html>
